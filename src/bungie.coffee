@@ -2,10 +2,10 @@
 #   Interacts with the Bungie Destiny API.
 #
 # Commands:
-#   dinklebot armory <gamertag> - Returns that players Grimoire Score.
-#   dinklebot played <gamertag> - Returns that players Last played character and lightlevel
-#   dinklebot inventory <gamertag> - Returns that players Last played character's equipped inventory
-#   dinklebot vendor xur - Returns Xur's Inventory or a warning when he isn't available
+#   db armory <gamertag> - Returns that players Grimoire Score.
+#   db played <gamertag> - Returns that players Last played character and lightlevel
+#   db inventory <gamertag> - Returns that players Last played character's equipped inventory
+#   db vendor xur - Returns Xur's Inventory or a warning when he isn't available
 #
 
 require('dotenv').load()
